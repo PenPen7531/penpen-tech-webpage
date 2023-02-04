@@ -1,0 +1,91 @@
+
+
+.code {
+    color: #0096FF;
+    font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.gaming{
+    font-family: 'Common Pixel', sans-serif;
+    color: green;
+}
+
+.music{
+    font-family: 'Rubik Spray Paint', sans-serif;
+    color: purple;
+}
+
+#content{
+    margin-top: 50px;
+    display: none;
+}
+
+#nav{
+    opacity: 0%;
+}
+
+#logo{
+    transition: all ease 5s;
+}
+
+
+#title{
+    padding-top: 20vh;
+    font-size: 5rem;
+    word-break: normal;
+}
+
+#content > * {
+    font-size: 1.5rem;
+}
+
+#flash{
+    animation: flash 1s infinite;
+}
+
+@keyframes fadeIn{
+    0% {
+        opacity: 0%;
+    }
+
+    25% {
+        opacity: 25%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    75% {
+        opacity: 75%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes flash{
+    0% {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 0%;
+    }
+}
+
+.red{
+    color: red;
+}
+
+@media only screen and (max-width: 1250px){
+    #title{
+        font-size: 42px;
+        padding-top: 10vh;
+    }
+
+    #content > *{
+        font-size: 1rem;
+    }
+}

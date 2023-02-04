@@ -1,0 +1,39 @@
+.container-fluid{
+    background-color: black;
+    color: white;
+}
+
+
+html{
+    font-size: 18px;
+    height: 100vh;
+    background-color: black;
+}
+.bg-black{
+    background-color: #181818 !important;
+}
+*{
+    font-family: 'Advent Pro';
+
+}
+
+body{
+    background-color: black !important;
+}
+
+#nav{
+    
+    background-color: #181818;
+}
+
+#flex-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1250px){
+    #flex-row{
+        flex-direction: column !important;
+    }
+}
