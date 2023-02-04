@@ -8,7 +8,7 @@ window.onload = async function typeName(){
     for (let i = 0; i < string.length; i++){
         display += string[i]; 
         elem.innerText = display;
-        let max = 500;
+        let max = 250;
         let min = 50;
         let delay = Math.floor(Math.random() * (max - min + 1)) + min
         await sleep(delay);
