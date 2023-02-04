@@ -18,8 +18,11 @@ window.onload = async function typeName(){
     }
     document.getElementById('content').style.display = "block";
     document.getElementById('nav').style.display = "flex";
-    document.getElementById('content').style.animation = "fadeIn 1s linear";
-    document.getElementById('nav').style.animation = "fadeIn 1s linear forwards";
+    document.getElementById('logo').style.display = 'inline';
+    
+    document.getElementById('content').style.animation = "fadeIn 2s linear";
+    document.getElementById('nav').style.animation = "fadeIn 1.5s linear forwards";
+    document.getElementById('logo').style.animation = "fadeIn 1.5s linear forwards";
 }
 
 function sleep(miliseconds){
