@@ -34,7 +34,7 @@ body{
 
 
 
-.nav-link{
+.nav-link, #text-center{
     /* Align all links to center when viewing mobile */
     text-align: center;
 }
