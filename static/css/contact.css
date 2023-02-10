@@ -1,0 +1,29 @@
+
+
+#phone{
+    padding: 20px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    font-size: 72px;
+}
+
+
+
+#mail{
+    padding: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    font-size: 72px;
+}
+
+
+
+#linkedin-contact{
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #0072B1;
+    color: white;
+    font-size: 72px;
+}

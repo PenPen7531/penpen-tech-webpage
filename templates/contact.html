@@ -11,7 +11,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/contact.css') }}">
 
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- JavaScript -->
-    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/contact.js') }}"></script>
 
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
@@ -34,7 +34,7 @@
 <body>
  
         <nav class="navbar navbar-expand-lg navbar-dark bg-black" id="nav">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <img src="../static/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
                 PenPen Tech
             </a>
@@ -43,8 +43,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">My Experience</a>
@@ -65,7 +65,7 @@
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/contact">Contact Me</a>
+                  <a class="nav-link active" href="#">Contact Me <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="https://www.linkedin.com/in/jeffrey-wang-904776236/" target="_blank"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
@@ -81,16 +81,20 @@
             </div>
           </nav>
           <div class="container-fluid">
-            <h1 id="title" class="text-center"><span id="text"></span><span id="flash">|</span></h1>
+            <h1 id="title" class="text-center">Contact Me</h1>
             <div id="flex-row">
-              <img src="../static/img/logo.png" alt="logo" class="img-fluid" id="logo">
-              <div id="content" class="grey text-center">
-                <h2 class="sub-title">Who am I?</h2>
-                <p class="para">
-                  I am a Information Technology Student from BCIT who strives to learn all that Technology can give. Starting my post secondary career at SFU studying criminology but falling in love with Python, coding allowed me to be as creative and express myself however I desired. 
-                  I enjoy <span class="code">Coding</span>, <span class="gaming">Gaming</span>, and <span class="music">Music</span>. Currently, I am working for the Government of Canada as a Mobile Support Tech as part of my co-op internship.  
-                </p>
-              </div>
+                <div class="col text-center">
+                    <h2 class="text-center">Phone</h2>
+                    <i class="fa-solid fa-phone" id="phone"></i>
+                </div>
+                <div class="col text-center">
+                    <h2 class="text-center">Email</h2>
+                    <i class="fa-solid fa-envelope" id="mail"></i>
+                </div>
+                <div class="col text-center">
+                    <h2 class="text-center">Email</h2>
+                    <i class="fa-brands fa-linkedin-in" id="linkedin-contact"></i>
+                </div>
             </div>
           </div>
 </body>
