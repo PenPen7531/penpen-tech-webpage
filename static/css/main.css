@@ -32,6 +32,13 @@ body{
     align-items: center;
 }
 
+
+
+.nav-link{
+    /* Align all links to center when viewing mobile */
+    text-align: center;
+}
+
 @media only screen and (max-width: 1250px){
     #flex-row{
         flex-direction: column !important;
