@@ -9,6 +9,11 @@
 }
 
 
+#title{
+    padding-top: 20vh;
+    font-size: 5rem;
+
+}
 
 #mail{
     padding: 20px;
@@ -18,7 +23,28 @@
     font-size: 72px;
 }
 
+@media only screen and (max-width: 1250px){
+    #title{
+        font-size: 42px;
+        padding-top: 10vh;
+    }
 
+    .para{
+        font-size: 1.25rem;
+    }
+}
+
+.n-style-link{
+    text-decoration: underline solid transparent;
+    color: white;
+    transition: text-decoration 1.5s ease;
+}
+
+
+.n-style-link:hover{
+    text-decoration: underline solid white;
+    color: white;
+}
 
 #linkedin-contact{
     padding: 20px;
