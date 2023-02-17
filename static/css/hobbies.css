@@ -20,6 +20,10 @@
     z-index: 3;
 }
 
+#mobile-img{
+    display: none;
+}
+
 #back-img{
     position: absolute;
     top: 0;
@@ -58,16 +62,13 @@
     #title{
         font-size: 42px;
         padding-top: 10vh;
+        padding-bottom: 10vh;
+        height: auto;
     }
 
     .para{
         font-size: 1.25rem;
     }
-
-    
-}
-
-@media only screen and (max-width: 750px){
     #back-img{
         position: static;
         top: auto;
@@ -78,6 +79,11 @@
     #title-div{
         background-image: none;
     }
+
+    #mobile-img{
+        display: inline;
+    }
 }
+
 
 
