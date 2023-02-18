@@ -52,6 +52,13 @@
 
 }
 
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 #car-img{
     width: 100%;
