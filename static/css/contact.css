@@ -10,7 +10,7 @@
 
 
 #title{
-    padding-top: 20vh;
+    padding-top: 10vh;
     font-size: 5rem;
 
 }
@@ -21,23 +21,6 @@
     background-color: blue;
     color: white;
     font-size: 72px;
-}
-
-@media only screen and (max-width: 1250px){
-    #title{
-        font-size: 42px;
-        padding-top: 10vh;
-    }
-
-    .para{
-        font-size: 1.25rem;
-    }
-}
-
-.n-style-link{
-    text-decoration: underline solid transparent;
-    color: white;
-    transition: text-decoration 1.5s ease;
 }
 
 
@@ -57,3 +40,75 @@
 .pad-20{
     padding: 20px;
 }
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.icon > * {
+    margin: 20px;
+}
+
+
+.form{
+    width: 75vw;
+    
+    
+}
+
+
+
+@media only screen and (max-width: 1250px){
+    #title{
+        font-size: 42px;
+        padding-top: 10vh;
+    }
+
+    .para{
+        font-size: 1.25rem;
+    }
+    #linkedin-contact, #mail, #phone {
+        font-size: 32px;
+
+    }
+    
+}
+
+@media only screen and (max-width: 500px){
+    .form{
+        width: 100%;
+    }
+
+    .icon{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    #linkedin-contact, #mail, #phone {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.n-style-link{
+    text-decoration: underline solid transparent;
+    color: white;
+    transition: text-decoration 1.5s ease;
+}
+
