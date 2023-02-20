@@ -22,10 +22,11 @@ def contact():
 
     if request.method == "GET":
 
-        return render_template("contact.html")
+        return render_template("contact.html", success = None)
     
     else:
-        name = request.form.get("name")
+        name = str(request.form.get("name"))
+        name = name.capitalize()
         
         email = request.form.get('email')
         
@@ -33,10 +34,10 @@ def contact():
 
         
 
-        subject = f"PenPen.tech New Email from {name}, {email}"
-        body = f"Name: {name}\nEmail: {email}\n{comment}"
-        print(body)
+        subject = f"PenPen.tech New Email from {name}"
+        body = f"Name: {name}\n\nEmail: {email}\n\nMessage: {comment}"
         
+
         # Email Stuff
         em = EmailMessage()
         em['From'] = email_sender
@@ -52,7 +53,7 @@ def contact():
             smtp.sendmail(email_sender, email_receiver, em.as_string())
 
         
-        return render_template('contact.html')
+        return render_template('contact.html', success = "true")
 
 @app.route('/hobbies')
 def hobbies():

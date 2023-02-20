@@ -114,11 +114,14 @@
               </div>
               
               <div class="form-group">
-                <label for="exampleFormControlTextarea1">Comment</label>
-                <textarea class="form-control" name="comment" id="exampleFormControlTextarea1" placeholder="Comment" rows="3" required></textarea>
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" name="comment" id="exampleFormControlTextarea1" placeholder="Enter Message" rows="3" required></textarea>
               </div>
               
               <button type="submit" class="btn btn-primary">Submit</button>
+              {% if success == "true" %}
+              <h3 id="success">Message Sent</h3>
+              {% endif %}
             </form>
             </div>
             
