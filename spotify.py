@@ -41,8 +41,7 @@ def getTop10():
             
             })
 
-        if os.path.exists('./top10_data.json'):
-            os.remove('top10_data.json')
+    
         
 
         with open('top10_data.json', 'w', encoding='utf-8') as f:
