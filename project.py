@@ -3,6 +3,8 @@ from flask import Flask, render_template, redirect, request
 from email.message import EmailMessage
 import ssl
 import smtplib
+import json
+from spotify import getTop10
 
 app = Flask(__name__)
 
@@ -57,7 +59,11 @@ def contact():
 
 @app.route('/hobbies')
 def hobbies():
-    return render_template("hobbies.html")
+    getTop10()
+    with open("top10_data.json", 'r') as f:
+        data = json.load(f)
+    
+    return render_template("hobbies.html", spotify = data)
 
 @app.route("/experience")
 def experience():

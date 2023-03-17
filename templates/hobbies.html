@@ -109,12 +109,34 @@
               </div>
 
              
+              <h2 class="text-center sub-head pad-50">My Top 10 Spotify Songs</h2>
+              {% for song in spotify %}
+              <div class="row">
+                
+                <div class="col-md middle" >
+                  <p class="text-center para">{{ song.song }}</p>
+                  
+                </div>
+                <div class="col-md">
+                  
+                  
+                  <div class="text-center">
+                    <img src="{{song.image}}" alt="song-img" class="img-fluid song-img" style="max-width: 500px;">
+                  </div>
+                  
 
-              <h2 class="text-center sub-head">Music</h2>
+                 
+                </div>
+
+                
+                
+              </div>
+
+              {% endfor %}
+
             </div>
             
-           
-            
+          
           </div>
 </body>
 </html>
