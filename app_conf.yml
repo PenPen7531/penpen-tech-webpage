@@ -1,4 +1,4 @@
 client_id: "ddcea641ed8144de903237b83273e4b1"
 client_secret: "541ef53bec3b4b799274a869cc18ef23"
-redirect_url: "https:"
+redirect_url: "http://localhost:8888/callback"
 scope: ["user-read-currently-playing", "user-read-playback-state", "user-top-read", "user-library-read", "playlist-read-private"]

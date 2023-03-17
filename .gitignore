@@ -1,3 +1,5 @@
 /myprojectenv
 
 /__pycache__
+
+app_conf.yml
