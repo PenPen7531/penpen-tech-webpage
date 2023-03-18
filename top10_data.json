@@ -42,16 +42,16 @@
         "artist_link": "https://open.spotify.com/artist/7HWfshpjlGldmRa4gymvjX"
     },
     {
-        "song": "The King and Queen of Gasoline",
-        "artist": "Hot Milk",
-        "image": "https://i.scdn.co/image/ab67616d0000b2736bb483df05432ee60a9e899e",
-        "artist_link": "https://open.spotify.com/artist/1koutXdSFq2PHqtxSWj9tK"
-    },
-    {
         "song": "It Was Fun While It Lasted",
         "artist": "Sueco",
         "image": "https://i.scdn.co/image/ab67616d0000b273b37f851c17f61753edb0e128",
         "artist_link": "https://open.spotify.com/artist/4iDroUFo89Y7YBsdDTBmTD"
+    },
+    {
+        "song": "The King and Queen of Gasoline",
+        "artist": "Hot Milk",
+        "image": "https://i.scdn.co/image/ab67616d0000b2736bb483df05432ee60a9e899e",
+        "artist_link": "https://open.spotify.com/artist/1koutXdSFq2PHqtxSWj9tK"
     },
     {
         "song": "FUNERAL GREY",

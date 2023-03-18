@@ -113,15 +113,17 @@
               {% for song in spotify %}
               <div class="row">
                 
-                <div class="col-md middle" >
-                  <p class="text-center para">{{ song.song }}</p>
+                <div class="col-md middle music-con">
+                  <p class="text-center song-title music">Title: {{ song.song }}</p>
+                  <p class="text-center song-artist music">Artist: {{ song.artist }}</p>
+                  <a class="artist-button" target="_blank" href="{{ song.artist_link }}">View Artist</a>
                   
                 </div>
                 <div class="col-md">
                   
                   
                   <div class="text-center">
-                    <img src="{{song.image}}" alt="song-img" class="img-fluid song-img">
+                    <img src="{{song.image}}" alt="song-img" class="img-fluid song-img" >
                   </div>
                   
 
