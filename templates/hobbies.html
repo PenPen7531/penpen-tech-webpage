@@ -84,7 +84,7 @@
             <div id="title-div">
               <div id="title-content">
                 <h1 id="title" class="text-center">Hobbies and Interest</h1>
-                <!-- <img src="/static/img/711-frs.jpg" class="img-fluid" id="mobile-img"> -->
+                
               </div>
             </div>
             <div class="container-fluid content">
@@ -117,7 +117,15 @@
                   <p class="text-center song-title music">Title: {{ song.song }}</p>
                   <p class="text-center song-artist music">Artist: {{ song.artist }}</p>
                   <a class="artist-button" target="_blank" href="{{ song.artist_link }}">View Artist</a>
-                  
+
+                  {% if song.mp3 != None %}
+                  <audio controls class="mp3" muted>
+                    <source src="{{ song.mp3 }}" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+                  {% else %}
+                  <p class="para red text-center">No Sample Avaliable</p>
+                  {% endif %}
                 </div>
                 <div class="col-md">
                   

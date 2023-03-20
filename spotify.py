@@ -14,9 +14,9 @@ def getTop10():
 
 
 
-    username = "tn7osj8so0qn99pcjy8701vgv"
+    username = app_config["username"]
 
-    scope = ["user-read-currently-playing", "user-read-playback-state", "user-top-read", "user-library-read", "playlist-read-private"]
+    scope = app_config['scope']
 
 
     token = util.prompt_for_user_token(username,scope=scope,client_id=app_config["client_id"],client_secret=app_config['client_secret'], redirect_uri="http://google.com/")
@@ -27,19 +27,23 @@ def getTop10():
         top_songs = sp.current_user_top_tracks(limit=10, time_range="medium_term")
         list = []
         
+        print()
         for song in range(10):
+            
             artist = top_songs['items'][song]['album']['artists'][0]["name"]
             image = top_songs['items'][song]['album']['images'][0]['url']
             song_name = top_songs['items'][song]['album']['name']
             artist_link = top_songs['items'][song]['album']['artists'][0]["external_urls"]["spotify"]
-            
+            song_mp3 = top_songs['items'][song]['preview_url']
             list.append({
                 "song": song_name,
                 "artist": artist,
                 "image": image, 
-                "artist_link": artist_link
-            
+                "artist_link": artist_link,
+                "mp3": song_mp3
             })
+            
+           
 
     
         
@@ -48,4 +52,7 @@ def getTop10():
             json.dump(list, f, ensure_ascii=False, indent=4)
     else:
         print("Can't get token for", username)
+
+if __name__ == "__main__":
+    getTop10()
 

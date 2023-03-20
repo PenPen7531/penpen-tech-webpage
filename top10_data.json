@@ -3,60 +3,70 @@
         "song": "Significant Other",
         "artist": "Limp Bizkit",
         "image": "https://i.scdn.co/image/ab67616d0000b2733783782de74f61e36795bf9c",
-        "artist_link": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+        "artist_link": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb",
+        "mp3": "https://p.scdn.co/mp3-preview/bd980f5f9b85a4a82f4deb5762fa7e151a1449ff?cid=ddcea641ed8144de903237b83273e4b1"
     },
     {
         "song": "American Made",
         "artist": "A Story Told",
         "image": "https://i.scdn.co/image/ab67616d0000b2739e616f4140a65d456931903d",
-        "artist_link": "https://open.spotify.com/artist/0kMSrud2q1lDBgp43LwU54"
+        "artist_link": "https://open.spotify.com/artist/0kMSrud2q1lDBgp43LwU54",
+        "mp3": "https://p.scdn.co/mp3-preview/279e40d8405ec1f2eb36adea2fa75d086d3a6c06?cid=ddcea641ed8144de903237b83273e4b1"
     },
     {
         "song": "Never Look Back",
         "artist": "Goldfinger",
         "image": "https://i.scdn.co/image/ab67616d0000b273abc13757005442807c3f38c3",
-        "artist_link": "https://open.spotify.com/artist/7sVQKNtdP2NylxMgbNOJMM"
+        "artist_link": "https://open.spotify.com/artist/7sVQKNtdP2NylxMgbNOJMM",
+        "mp3": "https://p.scdn.co/mp3-preview/a13e92167d3b8aaecdc522e0032b36378d74fc7e?cid=ddcea641ed8144de903237b83273e4b1"
     },
     {
         "song": "Armageddon",
         "artist": "Between You & Me",
         "image": "https://i.scdn.co/image/ab67616d0000b2734d25fd15460d358aaf5688f0",
-        "artist_link": "https://open.spotify.com/artist/1P1y4wp6V0CwjhGcXPKgAu"
+        "artist_link": "https://open.spotify.com/artist/1P1y4wp6V0CwjhGcXPKgAu",
+        "mp3": "https://p.scdn.co/mp3-preview/fdd5191f053f44d220260083c6cc622aea106ba1?cid=ddcea641ed8144de903237b83273e4b1"
     },
     {
         "song": "The Age of Isolation",
         "artist": "Emerson Vernon",
         "image": "https://i.scdn.co/image/ab67616d0000b27398f59d3d04c47c8500b8aaa0",
-        "artist_link": "https://open.spotify.com/artist/6OLO1hS58OrBy98Xe4SZiG"
+        "artist_link": "https://open.spotify.com/artist/6OLO1hS58OrBy98Xe4SZiG",
+        "mp3": null
     },
     {
         "song": "Hard Candy",
         "artist": "The Summer Set",
         "image": "https://i.scdn.co/image/ab67616d0000b273a81d1c4ba54e73c96314a444",
-        "artist_link": "https://open.spotify.com/artist/0pwyD6DhbFWn8uVSz2Fr0w"
+        "artist_link": "https://open.spotify.com/artist/0pwyD6DhbFWn8uVSz2Fr0w",
+        "mp3": "https://p.scdn.co/mp3-preview/cb0990785fe6ed8ea1bf1f98f82d896056a87663?cid=ddcea641ed8144de903237b83273e4b1"
     },
     {
         "song": "February EP",
         "artist": "No Love For The Middle Child",
         "image": "https://i.scdn.co/image/ab67616d0000b273e4c22a6fbb7d62acf6a6c58e",
-        "artist_link": "https://open.spotify.com/artist/7HWfshpjlGldmRa4gymvjX"
+        "artist_link": "https://open.spotify.com/artist/7HWfshpjlGldmRa4gymvjX",
+        "mp3": "https://p.scdn.co/mp3-preview/cc9386e2fd59efc8b23a9755db22d7659d4d048b?cid=ddcea641ed8144de903237b83273e4b1"
     },
     {
         "song": "It Was Fun While It Lasted",
         "artist": "Sueco",
         "image": "https://i.scdn.co/image/ab67616d0000b273b37f851c17f61753edb0e128",
-        "artist_link": "https://open.spotify.com/artist/4iDroUFo89Y7YBsdDTBmTD"
+        "artist_link": "https://open.spotify.com/artist/4iDroUFo89Y7YBsdDTBmTD",
+        "mp3": "https://p.scdn.co/mp3-preview/497b51b5e4fb3351146e4321bfec9e2d26b3049d?cid=ddcea641ed8144de903237b83273e4b1"
     },
     {
         "song": "The King and Queen of Gasoline",
         "artist": "Hot Milk",
         "image": "https://i.scdn.co/image/ab67616d0000b2736bb483df05432ee60a9e899e",
-        "artist_link": "https://open.spotify.com/artist/1koutXdSFq2PHqtxSWj9tK"
+        "artist_link": "https://open.spotify.com/artist/1koutXdSFq2PHqtxSWj9tK",
+        "mp3": "https://p.scdn.co/mp3-preview/ef27a7c0bab820030101e45f16da91085caa80d3?cid=ddcea641ed8144de903237b83273e4b1"
     },
     {
         "song": "FUNERAL GREY",
         "artist": "Waterparks",
         "image": "https://i.scdn.co/image/ab67616d0000b273e9bc38ba3976ce93ff381a96",
-        "artist_link": "https://open.spotify.com/artist/3QaxveoTiMetZCMp1sftiu"
+        "artist_link": "https://open.spotify.com/artist/3QaxveoTiMetZCMp1sftiu",
+        "mp3": null
     }
 ]

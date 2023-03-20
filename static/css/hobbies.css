@@ -111,12 +111,25 @@
     font-size: 1.75rem;
 }
 
+.artist-button:hover{
+    color: grey;
+    text-decoration: none;
+}
+
 .music{
     padding: 5px !important;
 }
 
 .music-con{
     margin: 10px;
+}
+.red{
+    color: red;
+}
+.mp3{
+    margin: 30px;
+    max-width: 600px;
+    width: 100%;
 }
 @media only screen and (max-width: 750px){
     .artist-button{
