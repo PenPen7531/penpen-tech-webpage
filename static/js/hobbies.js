@@ -1,7 +1,7 @@
 
 
 let i = 0;
-document.getElementsByClassName("car-slide")[i].style.display = "inline";
+// document.getElementsByClassName("car-slide")[i].style.display = "inline";
 function slideshow(){
     let car_slides = document.getElementsByClassName("car-slide");
 
