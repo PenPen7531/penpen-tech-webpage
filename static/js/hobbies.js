@@ -1,11 +1,10 @@
 
 
 let i = 0;
-
+document.getElementsByClassName("car-slide")[i].style.display = "inline";
 function slideshow(){
     let car_slides = document.getElementsByClassName("car-slide");
-    console.log(car_slides[i])
-    console.log(i)
+
     if (i < car_slides.length - 1){
         car_slides[i].style.display = "None";
         i++;
