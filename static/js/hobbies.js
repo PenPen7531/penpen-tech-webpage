@@ -19,6 +19,6 @@ function slideshow(){
 
     setTimeout(slideshow, 5000)
 }
-
-window.onload = slideshow;
+setTimeout(slideshow, 5000)
+// window.onload = slideshow;
 
