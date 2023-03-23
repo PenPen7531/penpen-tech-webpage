@@ -27,12 +27,12 @@ def getTop10():
         top_songs = sp.current_user_top_tracks(limit=10, time_range="medium_term")
         list = []
         
-        print()
+        # print(top_songs['items'][0])
         for song in range(10):
             
             artist = top_songs['items'][song]['album']['artists'][0]["name"]
             image = top_songs['items'][song]['album']['images'][0]['url']
-            song_name = top_songs['items'][song]['album']['name']
+            song_name = top_songs['items'][song]['name']
             artist_link = top_songs['items'][song]['album']['artists'][0]["external_urls"]["spotify"]
             song_mp3 = top_songs['items'][song]['preview_url']
             list.append({

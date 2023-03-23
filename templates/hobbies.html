@@ -93,8 +93,12 @@
                   <h2 class="text-center sub-head">Cars</h2>
                   <p class="para text-center">Cars have been an important part of my life since I was a child. From Hot Wheels, RC cars, models, to Miatas and sport cars, cars have been a facination to me. I enjoy driving to places such as Whistler and Hells Gate (Safely and Following the Law).</p>
                 </div>
-                <div class="col-md" style="padding: 0;">
-                  <img  class="img-fluid" id="car-img"/>
+                <div class="col-md car-show" style="padding: 0;">
+                  <img  class="img-fluid car-slide" id="car-img1" src="../static/img/711-frs.jpg"/>
+                  <img  class="img-fluid car-slide" id="car-img2" src="../static/img/frs-gas-crop.jpg"/>
+                  <img  class="img-fluid car-slide" id="car-img3" src="../static/img/harrison-black-white.jpg"/>
+                  
+
                 </div>
               </div>
               <div class="row">
@@ -109,12 +113,12 @@
               </div>
 
              
-              <h2 class="text-center sub-head pad-50">My Top 10 Spotify Songs</h2>
+              <h2 class="text-center sub-head pad-50 song-div">My Top 10 Spotify Songs</h2>
               {% for song in spotify %}
-              <div class="row">
+              <div class="row song-div">
                 
                 <div class="col-md middle music-con">
-                  <p class="text-center song-title music">Title: {{ song.song }}</p>
+                  <p class="text-center song-title music">Song: {{ song.song }}</p>
                   <p class="text-center song-artist music">Artist: {{ song.artist }}</p>
                   <a class="artist-button" target="_blank" href="{{ song.artist_link }}">View Artist</a>
 
