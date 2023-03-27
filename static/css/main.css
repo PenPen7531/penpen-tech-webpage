@@ -1,12 +1,14 @@
 .container-fluid{
     background-color: black;
     color: white;
+    
 }
+
 
 
 html{
     font-size: 18px;
-    
+    height: auto;
     background-color: black;
 }
 .bg-black{
@@ -40,6 +42,7 @@ html{
     color: white;
 }
 .bot-nav{
+   
     padding: 30px 10px;
     background-color: #181818;
     
@@ -51,6 +54,7 @@ html{
 }
 
 body{
+    height: auto;
     background-color: black !important;
 }
 
