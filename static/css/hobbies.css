@@ -133,9 +133,22 @@
 .music{
     padding: 5px !important;
 }
+.white{
+    color: grey;
+    transition: color 0.5s ease;
+}
 
+.white:hover{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.active-bot{
+    color: white;
+}
 .bot-nav{
-
+    padding: 30px 10px;
     background-color: #181818;
 
 }

@@ -6,7 +6,7 @@
 
 html{
     font-size: 18px;
-    height: 100vh;
+    
     background-color: black;
 }
 .bg-black{
@@ -15,6 +15,39 @@ html{
 *{
     font-family: 'Advent Pro';
 
+}
+.white{
+    color: grey;
+    transition: color 0.5s ease;
+}
+
+#pad-0{
+    padding: 0;
+}
+
+.white:hover{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.para {
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.active-bot{
+    color: white;
+}
+.bot-nav{
+    padding: 30px 10px;
+    background-color: #181818;
+    
+
+}
+.nav-img > * > * > *{
+    padding-top: 10px;
+    color: rgba(255,255,255,.5) !important;
 }
 
 body{
