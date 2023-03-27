@@ -26,7 +26,8 @@ def getTop10():
         # Get user's top artists for spotify wrapped
         top_songs = sp.current_user_top_tracks(limit=10, time_range="medium_term")
         list = []
-        
+        current_track = sp.currently_playing()
+        print(current_track)
         # print(top_songs['items'][0])
         for song in range(10):
             

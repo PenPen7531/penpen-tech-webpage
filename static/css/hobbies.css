@@ -113,9 +113,9 @@
     font-size: 2rem;
 }
 
-/* .song-img{
-    width: 500px !important;
-} */
+.song-img{
+    max-height: 50vh;
+}
 
 .artist-button{
     color: white;
@@ -132,6 +132,10 @@
 
 .music{
     padding: 5px !important;
+}
+
+.bot-nav{
+    background-color: #181818;
 }
 
 .music-con{
