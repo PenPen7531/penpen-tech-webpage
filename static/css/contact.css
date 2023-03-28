@@ -53,9 +53,16 @@
     
 }
 
+
+
 .icon > * {
     margin: 20px;
 }
+
+html{
+    height: 100vh;
+}
+
 
 
 .form{
