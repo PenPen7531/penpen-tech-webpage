@@ -102,9 +102,11 @@
         font-size: 42px;
         padding-top: 10vh;
     }
-
+    #logo{
+        max-height: 50vh;
+    }
     .para{
-        font-size: 1.25rem;
+        font-size: 18px;
     }
 }
 

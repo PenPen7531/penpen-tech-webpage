@@ -88,7 +88,7 @@
 
 
 .sub-head{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 #car-img1{
@@ -266,6 +266,11 @@
         height: auto;
         width: 100%;
     }
+
+    .song-img{
+        max-width: 500px;
+        height: auto;
+    }
 }
 
 
@@ -286,5 +291,37 @@
     .artist-button{
         
         font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    #title{
+        font-size: 42px;
+        padding-top: 10vh;
+    }
+
+    .song-div{
+        margin: 50px auto;
+    }
+
+    .sub-head{
+        font-size: 36px;
+        margin-top: 20px;
+    }
+    .song-img{
+        width: 50vh;
+        
+        padding: 0px;
+    }
+    .para{
+        font-size: 18px;
+    }
+
+    .song-title{
+        font-size: 28px;
+    }
+
+    .song-artist{
+        font-size: 26px;
     }
 }
