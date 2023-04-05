@@ -88,7 +88,7 @@
 
 
 .sub-head{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #car-img1{
@@ -102,7 +102,8 @@
 .gundam-slide{
     display: none;
     width: 100%;
-    height: 70vh !important;
+    
+    max-height: 50vh !important;
     object-fit: contain;
 }
 .pad-50{
@@ -175,7 +176,8 @@
 
 .car-slide{
     display: none;
-    height: 500px !important;
+    /* height: 500px !important; */
+    max-height: 50vh !important;
     width: 100%;
     object-fit:cover;
 }
@@ -207,7 +209,7 @@
         height: 200px !important;
     }
     .song-img{
-        max-width: 400px;
+       
        
         min-width: 200px;
         padding: 5px 20px; 
