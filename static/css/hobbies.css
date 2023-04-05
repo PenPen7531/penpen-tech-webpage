@@ -11,6 +11,9 @@
     text-align: center;
 }
 
+.nav-font{
+    font-size: 1.25rem;
+}
 
 .para {
     font-size: 1.5rem;
@@ -114,9 +117,9 @@
     font-size: 2rem;
 }
 
-/* .song-img{
-    width: 500px !important;
-} */
+.song-img{
+    max-height: 50vh;
+}
 
 .artist-button{
     color: white;
@@ -133,6 +136,25 @@
 
 .music{
     padding: 5px !important;
+}
+.white{
+    color: grey;
+    transition: color 0.5s ease;
+}
+
+.white:hover{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.active-bot{
+    color: white;
+}
+.bot-nav{
+    padding: 30px 10px;
+    background-color: #181818;
+
 }
 
 .music-con{
@@ -248,7 +270,7 @@
 
 
 @media only screen and (max-width: 300px){
-    .para{
+    .para, .nav-font{
         font-size: 1rem;
     }
 

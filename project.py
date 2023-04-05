@@ -5,12 +5,17 @@ import ssl
 import smtplib
 import json
 from spotify import getTop10
+import yaml
 
 app = Flask(__name__)
 
-email_sender = "penpentech000@gmail.com"
-email_password = "xiwknwzqmyutqelt"
-email_receiver = "jeffmkwang@gmail.com"
+with open('app_conf.yml', 'r') as f:
+        app_config = yaml.safe_load(f.read())
+
+
+email_sender = app_config['email_sender']
+email_password = app_config['email_password']
+email_receiver = app_config['email_receiver']
 
 
 
